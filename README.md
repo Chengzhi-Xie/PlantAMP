@@ -11,24 +11,24 @@ The model was trained and evaluated on a server (`AutoDL` https://www.autodl.com
 ProteinBERT download
 git clone https://github.com/nadavbra/protein_bert.git
 
-*python=3.8
+* python=3.8
 
-*numpy==1.23.5
-*pandas==1.5.3    
-*scikit-learn==1.2.2  
-*ensorflow==2.12.0
-*tensorflow-addons==0.21.0
-*h5py==3.8.0
-*torch==2.0.1+cu118
-*torchvision==0.15.2+cu118
-*torchaudio==2.0.2+cu118
-*pyfaidx==0.6.3
-*lxml==4.9.1
-*tqdm==4.65.0
-*transformers==4.30.2
-*datasets==2.12.0
-*matplotlib==3.7.1
-*seaborn==0.12.2
+* numpy==1.23.5
+* pandas==1.5.3    
+* scikit-learn==1.2.2  
+* ensorflow==2.12.0
+* tensorflow-addons==0.21.0
+* h5py==3.8.0
+* torch==2.0.1+cu118
+* torchvision==0.15.2+cu118
+* torchaudio==2.0.2+cu118
+* pyfaidx==0.6.3
+* lxml==4.9.1
+* tqdm==4.65.0
+* transformers==4.30.2
+* datasets==2.12.0
+* matplotlib==3.7.1
+* seaborn==0.12.2
 
 ## Installation
 1. Create a new environment: `conda` 
