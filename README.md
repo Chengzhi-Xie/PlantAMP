@@ -1,1 +1,9 @@
 # PBPAMP
+PBPAMP is a fine‐tuning model built on the pretrained protein large language model (LLM) `ProteinBERT`, designed for the precise recognition and identification of plant antimicrobial peptides (PAMPs).
+
+## Structure
+![Fig  1](https://github.com/user-attachments/assets/2830b056-fb5e-4eac-9f9b-bdfdb7e2e5ee)
+Schematic Overview of the PBPAMP Workflow. The framework comprises four key stages: data aggregation, ProteinBERT invocation, model fine-tuning, and performance evaluation. (A) Architecture of ProteinBERT: adapted from the original BERT design, it processes sequences via two parallel branches—local (left) and global (right). Six Transformer-style blocks alternately handle these representations through fully connected and convolutional sublayers, with residual connections and layer normalization. Global Attention modules enable local features to inform the global embedding. (B) PAMP Dataset Assembly: experimentally validated PAMP sequences were compiled from published studies and public AMP databases. After merging and deduplication, 2,497 unique PAMPs were retained as positive samples, alongside 2,677 non-PAMPs as negative controls. (C) Model Development and Evaluation: starting from the pretrained ProteinBERT encoder, we (1) froze the backbone and fine-tuned the classification head for 5 epochs at lr=1×10^(-3), (2) unfroze all layers for 2 epochs at lr=5×10^(-5), and (3) performed a final tuning epoch at lr=2.5×10^(-5)—applying Dropout (0.3) and Early Stopping (patience=1) at each stage. For inference, we conducted 50 stochastic forward passes with MC Dropout(rate=0.3) within a 5-fold cross-validation framework, then ensembled predictions by weighting each fold’s output by its validation MCC. Finally, we scanned classification thresholds from 0.30 to 0.70 (step=0.005) to maximize MCC, and reported test-set AUC, ACC, Precision, Recall, F1-score, and MCC.
+
+## Deployments & Dependencies
+
