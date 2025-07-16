@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-PBPAMP_k=5.py
+PlantAMP_k=5.py
 
 dropout_rate=0.3, MC_ROUNDS=50
 Procedure:
