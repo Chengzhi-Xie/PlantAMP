@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 """
-PBPAMP_ROC_PRC_Confusion.py
+PlantAMP_ROC_PRC_Confusion.py
 
 dropout_rate=0.3, MC_ROUNDS=50
 Procedure:
