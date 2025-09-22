@@ -1,0 +1,13 @@
+PPepDB_1690	Noname-671	Citrus medica	Orbitide	Antibiotic, Anti-inflammatory, Cytotoxic	7	813.91	Experimental evidence at protein level	doi.org/10.1248/cpb.50.857
+PPepDB_1869	dianthin B	Dianthus superbus	Orbitide	Diuretic, Anti-inflammatory	6	676.81	Experimental evidence at protein level	doi.org/10.1016/S0031-9422(97)00857-1
+PPepDB_1909	Noname-672	Citrus medica	Orbitide	Antibiotic, Anti-inflammatory, Cytotoxic	8	840.03	Experimental evidence at protein level	doi.org/10.1248/cpb.50.857
+PPepDB_1974	dianthin A	Dianthus superbus	Orbitide	Diuretic, Anti-inflammatory	6	683.76	Experimental evidence at protein level	doi.org/10.1016/S0031-9422(97)00857-1
+PPepDB_2355	Seed glutenin fragment 75	Amaranthus hypochondriacus	--NA--	Anti-inflammatory	5	590.59	Experimental evidence at protein level	18211015
+PPepDB_2405	Cyclomontanin C	Annona montana	--NA--	Anti-inflammatory	9	1072.19	Experimental evidence at protein level	18687006
+PPepDB_2465	Cyclomontanin A/ Cyclomontanin B	Annona montana	--NA--	Anti-inflammatory	7	757.84	Experimental evidence at protein level	18687006
+PPepDB_2732	Cyclomontanin D	Annona montana	--NA--	Anti-inflammatory	7	730.82	Experimental evidence at protein level	18687006
+PPepDB_2852	Cyclosquamosin I	Annona squamosa	--NA--	Anti-inflammatory	8	792.89	Experimental evidence at protein level	18072745
+PPepDB_3586	--NA--	Glycine max	--NA--	Immunomodulatory, Anti-inflammatory	4	586.7	Experimental evidence at protein level	24444957
+PPepDB_3617	Lunasin	Glycine max	--NA--	Anticancer, Antioxidant, Anti-inflammatory	43	5043.38	Experimental evidence at protein level	25627564, 24508378
+PPepDB_3680	PepT1	Glycine max	--NA--	Anti-inflammatory	3	377.44	Experimental evidence at protein level	22842481
+PPepDB_3842	Aspartic acid-reach plypeptide Lunasin	Glycine max	--NA--	Immunomodulatory, Anti-inflammatory, Antimicrobial, Anticancer	43	5028.36	Experimental evidence at protein level	doi.org/10.1016/j.foodchem.2008.09.023, 3611081
