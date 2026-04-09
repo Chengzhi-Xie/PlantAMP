@@ -49,6 +49,9 @@ PlantAMP.txt
 PlantAMP_k=5.py is the final model codes of PlantAMP. The other files in model file shows other versions and comparison codes.
 In sequence_analysis file shows correlation analyses performed on PlantAMP.txt.
 
+## Cite this work
+Xie C, Hong F, Wei Y, Xie S, Luo X, Li X, Su W, Xie X, Hao Y, Lyu H, Ding H, Yang H, Dao F. PlantAMP: A fine-tuned protein large language model for plant antimicrobial peptide prediction. Plant Commun. 2026 Mar 9;7(3):101625. doi: 10.1016/j.xplc.2025.101625. Epub 2025 Nov 28. PMID: 41316708; PMCID: PMC12983251.
+
 ## Contact
 If you have any questions, comments, or would like to report a bug, please file a Github issue or contact me.
 
